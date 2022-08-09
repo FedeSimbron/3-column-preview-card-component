@@ -44,6 +44,12 @@ p{
     border-radius: 30px;
 }
 
+.container-cajas a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #fff;
+    color:#fff;
+}
+
 .caja-uno{
     background-color:hsl(31, 77%, 52%) ;
     color: #fff;
@@ -53,10 +59,11 @@ p{
 .caja-uno a{
     color: hsl(31, 77%, 52%);
 }
-.caja-dos{
+
+.caja-dos a{ 
     color:hsl(184, 100%, 22%) ;
 }
-.caja-tres{
+.caja-tres a{
     color:hsl(179, 100%, 13%) ;
 }
 
